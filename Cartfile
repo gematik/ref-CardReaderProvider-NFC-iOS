@@ -1,0 +1,4 @@
+github "gematik/ref-CardReaderProvider-ApiKit" ~> 1.0
+github "gematik/ref-GemCommonsKit" ~> 1.0
+github "SwiftCommon/DataKit" ~> 1.0
+github "gematik/ref-HealthCardAccessKit" ~> 1.0

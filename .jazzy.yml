@@ -1,0 +1,12 @@
+output: docs
+author: gematik Gesellschaft für Telematikanwendungen der Gesundheitskarte mbH
+author_url: http://www.gematik.de
+exclude: /*/internal*
+module: NFCCardReaderProvider
+github_url: http://www.github.com/gematik/nfc-cardreaderprovider-swift.git
+theme: jony
+xcodebuild_arguments:
+- "-project"
+- 'NFCCardReaderProvider.xcodeproj'
+- "-scheme"
+- 'NFCCardReaderProvider'

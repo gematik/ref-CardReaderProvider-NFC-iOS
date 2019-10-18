@@ -1,0 +1,46 @@
+name: NFCCardReaderProvider
+options:
+  bundleIdPrefix: de.gematik.ti.cardreader.provider
+  deploymentTarget:
+    macOS: 10.14
+    iOS: 13.0
+settings:
+  base:
+    SWIFT_VERSION: 5.0
+    ALWAYS_SEARCH_USER_PATHS: NO
+    FRAMEWORK_SEARCH_PATHS: "$(inherited)"
+  configs:
+    Release:
+      SWIFT_COMPILATION_MODE: wholemodule
+    Debug:
+      SWIFT_COMPILATION_MODE: incremental
+targets:
+  NFCCardReaderProvider:
+    type: framework
+    platform: iOS
+    info:
+      path: DerivedData/NFCCardReaderProvider/Info.plist
+    sources:
+      - Sources
+    dependencies:
+      - carthage: ASN1Kit
+      - carthage: CardReaderProviderApi
+      - carthage: CardReaderAccess
+      - carthage: GemCommonsKit
+      - carthage: ObjCCommonsKit
+      - carthage: DataKit
+      - carthage: HealthCardAccessKit
+      - sdk: CoreNFC.framework
+    scheme:
+      testTargets:
+        - NFCCardReaderProviderTests
+      gatherCoverageData: true
+  NFCCardReaderProviderTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - Tests
+    dependencies:
+      - target: NFCCardReaderProvider
+      - carthage: Nimble
+buildImplicitDependencies: true

@@ -74,6 +74,14 @@ class NFCCard: CardType {
         return NFCCardChannel(card: self, tag: tag, channelNo: Int(rspData[0]))
     }
 
+    func initialApplicationIdentifier() throws -> Data? {
+        guard let initialSelectedAID = tag?.initialSelectedAID else {
+            ALog("NFC tag could not deliver initialSelectedAID when expected")
+            return nil
+        }
+        return try Data(hex: initialSelectedAID)
+    }
+
     func disconnect(reset: Bool) throws {
         DLog("Disconnecting card ...")
         reader?.invalidateSession()

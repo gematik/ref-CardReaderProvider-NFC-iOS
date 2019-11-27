@@ -1,3 +1,6 @@
+# Release 1.0.3
+Info.plist added to repo
+
 # Release 1.0.2
 - adhere to extended CardType protocol
 

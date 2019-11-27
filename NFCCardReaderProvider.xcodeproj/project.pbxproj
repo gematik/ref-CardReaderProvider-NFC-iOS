@@ -341,7 +341,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = DerivedData/NFCCardReaderProvider/Info.plist;
+				INFOPLIST_FILE = Resources/NFCCardReaderProvider_Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.gematik.ti.cardreader.provider.NFCCardReaderProvider;
@@ -365,7 +365,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = DerivedData/NFCCardReaderProvider/Info.plist;
+				INFOPLIST_FILE = Resources/NFCCardReaderProvider_Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.gematik.ti.cardreader.provider.NFCCardReaderProvider;

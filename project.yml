@@ -19,7 +19,7 @@ targets:
     type: framework
     platform: iOS
     info:
-      path: DerivedData/NFCCardReaderProvider/Info.plist
+      path: Resources/NFCCardReaderProvider_Info.plist
     sources:
       - Sources
     dependencies:

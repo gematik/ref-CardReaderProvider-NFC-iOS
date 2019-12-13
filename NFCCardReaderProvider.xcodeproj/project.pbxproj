@@ -3,65 +3,65 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03D3C26A014D60E7FFAFFB4E8BA11F26 /* GemCommonsKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCBABA80BA123E287919B1191B7DD0A /* GemCommonsKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		07109F32F51AE8CC08D53586565DF5AE /* HealthCardAccessKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E27E90F46E9351BF661409A3A4B687C3 /* HealthCardAccessKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		074C36730976FF6851E02096A92BD7E6 /* ASN1Kit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1424E0EF651D8D80A591265C811D8A /* ASN1Kit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		0F42DBFFA162E9C8DF29473DCF2266AA /* CardReaderProviderApi.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FFE418D62E1B2368228579E52412DA16 /* CardReaderProviderApi.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		26EB0CC8D06ADDB58C6724AE1673DCF6 /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A41BBD5DDED3C0EA0B0522017E9C887 /* CoreNFC.framework */; };
-		2CDF9D282015D71019C46FF03CAD231F /* CardReaderProviderApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE418D62E1B2368228579E52412DA16 /* CardReaderProviderApi.framework */; };
-		324B4D14CACA076969E20655A74808C7 /* NFCCardReaderProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47880656B8E693746B8BD50583BF492F /* NFCCardReaderProvider.swift */; };
-		3AF61D17C4C0A1181F94FF85E785249B /* NFCISO7816APDU+CommandType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F33C2B56F43A08E4D35F9504E6DFBB /* NFCISO7816APDU+CommandType.swift */; };
-		430167BF9DB270AD7C7DAE72793744EA /* ASN1Kit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1424E0EF651D8D80A591265C811D8A /* ASN1Kit.framework */; };
-		45F57A4071EE3299200D4FA34C075362 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC7F8EF73054B2446F2143EEA8141A7 /* Nimble.framework */; };
-		4A6E1F24C33D368E67B1CB892A42DD0B /* NFCCardReaderProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5525E61EABDDE729C38E02526C6E23AD /* NFCCardReaderProvider.framework */; };
-		4ADE4AB97C6E1478779846C261CB21EA /* NFCCardReaderProvider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5525E61EABDDE729C38E02526C6E23AD /* NFCCardReaderProvider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4EC098149ECDE3A893244301CE5A2C80 /* NFCCardReaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8847FC43CF75D1B88127192FE014C68 /* NFCCardReaderController.swift */; };
-		57835BF7425E6733BFD061E486A31955 /* HealthCardAccessKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27E90F46E9351BF661409A3A4B687C3 /* HealthCardAccessKit.framework */; };
-		5AF7B4B1C1196F3B5552FC1E04F54B40 /* NFCCardReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32099AF0A1F3C3B1E0D2D409FAE5A7F /* NFCCardReader.swift */; };
-		60CBEA2D1A7AC9DE05AEA5D61E054F39 /* ObjCCommonsKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F82FC31BC4ACA94FC5172C8EDF5B6B6 /* ObjCCommonsKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		68E36EBB2F421D1BDCCBF9B441921B25 /* NFCCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DE14CCEDCAB361272F1331C3B3E5A5 /* NFCCard.swift */; };
-		6EACEE23EFE3925EC424CDE497E20BFC /* DataKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 80C5BE3E38AEA412645BB4C31159E291 /* DataKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7CB49DBB1007A81AF5FDA52A0E8F890C /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D97F92FE2FDA43CE22352F0DD06DDFF /* Test.swift */; };
-		96BF2490EF3F278E42A1C74AB758014E /* NFCCardReader+NFCTagReaderSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEDE3016F7CB79D9BE6CC98EAE4820 /* NFCCardReader+NFCTagReaderSessionDelegate.swift */; };
-		A7E59095F6B1A8E1B2147AD833D99C3A /* DataKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C5BE3E38AEA412645BB4C31159E291 /* DataKit.framework */; };
-		B2866BE7C22BC2FA41FA82D5F0282FF7 /* CardReaderAccess.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D68EA7CD8483C8269B1AD1AD619C39C2 /* CardReaderAccess.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B9CEF68C50E3297BD0CB4B379AC5A97A /* CardReaderAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D68EA7CD8483C8269B1AD1AD619C39C2 /* CardReaderAccess.framework */; };
-		BA891CDB2835C7136D8B5C2DB27A6E60 /* Nimble.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AAC7F8EF73054B2446F2143EEA8141A7 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D844433E9DF2650B04BC2185BD8EC984 /* GemCommonsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCBABA80BA123E287919B1191B7DD0A /* GemCommonsKit.framework */; };
-		E3654356D8DD9C17EC5E28AE7F2F50B2 /* ObjCCommonsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F82FC31BC4ACA94FC5172C8EDF5B6B6 /* ObjCCommonsKit.framework */; };
-		EC4D85053E935D4ECD8B6A1C66385D3B /* NFCCardChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111A63CEDC28914A59CA937F586E0559 /* NFCCardChannel.swift */; };
+		000B361CDED4D981212955F4 /* NFCISO7816APDU+CommandType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F33C2B56F43A08E4D35F95 /* NFCISO7816APDU+CommandType.swift */; };
+		16057FC6B5258A277A3DE27A /* HealthCardAccessKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E27E90F46E9351BF661409A3 /* HealthCardAccessKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		16D4927A2E4B646AA9F99674 /* NFCCardChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111A63CEDC28914A59CA937F /* NFCCardChannel.swift */; };
+		1C35C6E653D9034F931A9495 /* NFCCardReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32099AF0A1F3C3B1E0D2D40 /* NFCCardReader.swift */; };
+		27A1E896F856673FE024B11B /* DataKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C5BE3E38AEA412645BB4C3 /* DataKit.framework */; };
+		2CFF4DE97262B1E541B16E8D /* NFCCardReaderProvider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5525E61EABDDE729C38E0252 /* NFCCardReaderProvider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3817ADD6B19DD53D84248524 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D97F92FE2FDA43CE22352F0 /* Test.swift */; };
+		4896E02C8F643976664F8C0C /* CardReaderAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D68EA7CD8483C8269B1AD1AD /* CardReaderAccess.framework */; };
+		4E395EAE61D46E2BC77DC1C4 /* ASN1Kit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1424E0EF651D8D80A59126 /* ASN1Kit.framework */; };
+		693FB974746D042145243863 /* NFCCardReaderProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47880656B8E693746B8BD505 /* NFCCardReaderProvider.swift */; };
+		76C36408EAF39BBC5E3A5839 /* NFCCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DE14CCEDCAB361272F1331 /* NFCCard.swift */; };
+		7CD7A2689B0664E3C4EAC83E /* Nimble.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AAC7F8EF73054B2446F2143E /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7D03D68BD3BCA7112EE034EE /* DataKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 80C5BE3E38AEA412645BB4C3 /* DataKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		827C1E36E2F323B44112D13C /* CardReaderProviderApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE418D62E1B2368228579E5 /* CardReaderProviderApi.framework */; };
+		8606F8DFE716BA9B8C6392D8 /* CardReaderProviderApi.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FFE418D62E1B2368228579E5 /* CardReaderProviderApi.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8F599E3334C84199016CD391 /* HealthCardAccessKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27E90F46E9351BF661409A3 /* HealthCardAccessKit.framework */; };
+		918171B40D3550DACF5FEA69 /* CardReaderAccess.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D68EA7CD8483C8269B1AD1AD /* CardReaderAccess.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B203AEA229BA577328789832 /* ASN1Kit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1424E0EF651D8D80A59126 /* ASN1Kit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B614A56E9B0A2AA1413E6D35 /* NFCCardReaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8847FC43CF75D1B88127192 /* NFCCardReaderController.swift */; };
+		B93315059F0DB125762AF698 /* NFCCardReader+NFCTagReaderSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEDE3016F7CB79D9BE6CC9 /* NFCCardReader+NFCTagReaderSessionDelegate.swift */; };
+		C66DDAF049E0BA8784D0DCF9 /* ObjCCommonsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F82FC31BC4ACA94FC5172C8 /* ObjCCommonsKit.framework */; };
+		C8C21A66FE92A138C8BFE0E1 /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A41BBD5DDED3C0EA0B05220 /* CoreNFC.framework */; };
+		D1271335699DB7C0B739505A /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC7F8EF73054B2446F2143E /* Nimble.framework */; };
+		E2C5722188E104838B1ACA3F /* NFCCardReaderProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5525E61EABDDE729C38E0252 /* NFCCardReaderProvider.framework */; };
+		E4148FD664557A4E6331B6DF /* GemCommonsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCBABA80BA123E287919B11 /* GemCommonsKit.framework */; };
+		E8F318EF337780964A905959 /* GemCommonsKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCBABA80BA123E287919B11 /* GemCommonsKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EAD385ACA902824F516CBB9D /* ObjCCommonsKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F82FC31BC4ACA94FC5172C8 /* ObjCCommonsKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		522791ED160FF3751BD151A1C8E9E392 /* PBXContainerItemProxy */ = {
+		959D1A91CEE77F39B39A83C0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 81EA5A64DFCEB9DF8BE4FE91556C7037 /* Project object */;
+			containerPortal = 81EA5A64DFCEB9DF8BE4FE91 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 30E0ACD148BFED8DBD42623452557055;
+			remoteGlobalIDString = 30E0ACD148BFED8DBD426234;
 			remoteInfo = NFCCardReaderProvider;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		5AAC3DF9049A05F43A1398E93A3C0707 /* Embed Frameworks */ = {
+		5AAC3DF9049A05F43A1398E9 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4ADE4AB97C6E1478779846C261CB21EA /* NFCCardReaderProvider.framework in Embed Frameworks */,
-				074C36730976FF6851E02096A92BD7E6 /* ASN1Kit.framework in Embed Frameworks */,
-				B2866BE7C22BC2FA41FA82D5F0282FF7 /* CardReaderAccess.framework in Embed Frameworks */,
-				0F42DBFFA162E9C8DF29473DCF2266AA /* CardReaderProviderApi.framework in Embed Frameworks */,
-				6EACEE23EFE3925EC424CDE497E20BFC /* DataKit.framework in Embed Frameworks */,
-				03D3C26A014D60E7FFAFFB4E8BA11F26 /* GemCommonsKit.framework in Embed Frameworks */,
-				07109F32F51AE8CC08D53586565DF5AE /* HealthCardAccessKit.framework in Embed Frameworks */,
-				BA891CDB2835C7136D8B5C2DB27A6E60 /* Nimble.framework in Embed Frameworks */,
-				60CBEA2D1A7AC9DE05AEA5D61E054F39 /* ObjCCommonsKit.framework in Embed Frameworks */,
+				2CFF4DE97262B1E541B16E8D /* NFCCardReaderProvider.framework in Embed Frameworks */,
+				B203AEA229BA577328789832 /* ASN1Kit.framework in Embed Frameworks */,
+				918171B40D3550DACF5FEA69 /* CardReaderAccess.framework in Embed Frameworks */,
+				8606F8DFE716BA9B8C6392D8 /* CardReaderProviderApi.framework in Embed Frameworks */,
+				7D03D68BD3BCA7112EE034EE /* DataKit.framework in Embed Frameworks */,
+				E8F318EF337780964A905959 /* GemCommonsKit.framework in Embed Frameworks */,
+				16057FC6B5258A277A3DE27A /* HealthCardAccessKit.framework in Embed Frameworks */,
+				7CD7A2689B0664E3C4EAC83E /* Nimble.framework in Embed Frameworks */,
+				EAD385ACA902824F516CBB9D /* ObjCCommonsKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,164 +69,164 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		10DE14CCEDCAB361272F1331C3B3E5A5 /* NFCCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCCard.swift; sourceTree = "<group>"; };
-		111A63CEDC28914A59CA937F586E0559 /* NFCCardChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCCardChannel.swift; sourceTree = "<group>"; };
-		1A41BBD5DDED3C0EA0B0522017E9C887 /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = System/Library/Frameworks/CoreNFC.framework; sourceTree = SDKROOT; };
-		2D97F92FE2FDA43CE22352F0DD06DDFF /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
-		47880656B8E693746B8BD50583BF492F /* NFCCardReaderProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCCardReaderProvider.swift; sourceTree = "<group>"; };
-		4F82FC31BC4ACA94FC5172C8EDF5B6B6 /* ObjCCommonsKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ObjCCommonsKit.framework; sourceTree = "<group>"; };
-		5525E61EABDDE729C38E02526C6E23AD /* NFCCardReaderProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NFCCardReaderProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BCBABA80BA123E287919B1191B7DD0A /* GemCommonsKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GemCommonsKit.framework; sourceTree = "<group>"; };
-		6D1424E0EF651D8D80A591265C811D8A /* ASN1Kit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ASN1Kit.framework; sourceTree = "<group>"; };
-		80C5BE3E38AEA412645BB4C31159E291 /* DataKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DataKit.framework; sourceTree = "<group>"; };
-		AAC7F8EF73054B2446F2143EEA8141A7 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = "<group>"; };
-		BC5557B3DBFF835632393A4FB3245F90 /* NFCCardReaderProviderTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = NFCCardReaderProviderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6F33C2B56F43A08E4D35F9504E6DFBB /* NFCISO7816APDU+CommandType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NFCISO7816APDU+CommandType.swift"; sourceTree = "<group>"; };
-		D68EA7CD8483C8269B1AD1AD619C39C2 /* CardReaderAccess.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CardReaderAccess.framework; sourceTree = "<group>"; };
-		D8847FC43CF75D1B88127192FE014C68 /* NFCCardReaderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCCardReaderController.swift; sourceTree = "<group>"; };
-		E27E90F46E9351BF661409A3A4B687C3 /* HealthCardAccessKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HealthCardAccessKit.framework; sourceTree = "<group>"; };
-		E32099AF0A1F3C3B1E0D2D409FAE5A7F /* NFCCardReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCCardReader.swift; sourceTree = "<group>"; };
-		ECCEDE3016F7CB79D9BE6CC98EAE4820 /* NFCCardReader+NFCTagReaderSessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NFCCardReader+NFCTagReaderSessionDelegate.swift"; sourceTree = "<group>"; };
-		FFE418D62E1B2368228579E52412DA16 /* CardReaderProviderApi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CardReaderProviderApi.framework; sourceTree = "<group>"; };
+		10DE14CCEDCAB361272F1331 /* NFCCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCCard.swift; sourceTree = "<group>"; };
+		111A63CEDC28914A59CA937F /* NFCCardChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCCardChannel.swift; sourceTree = "<group>"; };
+		1A41BBD5DDED3C0EA0B05220 /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = System/Library/Frameworks/CoreNFC.framework; sourceTree = SDKROOT; };
+		2D97F92FE2FDA43CE22352F0 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		47880656B8E693746B8BD505 /* NFCCardReaderProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCCardReaderProvider.swift; sourceTree = "<group>"; };
+		4F82FC31BC4ACA94FC5172C8 /* ObjCCommonsKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ObjCCommonsKit.framework; sourceTree = "<group>"; };
+		5525E61EABDDE729C38E0252 /* NFCCardReaderProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NFCCardReaderProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BCBABA80BA123E287919B11 /* GemCommonsKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GemCommonsKit.framework; sourceTree = "<group>"; };
+		6D1424E0EF651D8D80A59126 /* ASN1Kit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ASN1Kit.framework; sourceTree = "<group>"; };
+		80C5BE3E38AEA412645BB4C3 /* DataKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DataKit.framework; sourceTree = "<group>"; };
+		AAC7F8EF73054B2446F2143E /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = "<group>"; };
+		BC5557B3DBFF835632393A4F /* NFCCardReaderProviderTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = NFCCardReaderProviderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F33C2B56F43A08E4D35F95 /* NFCISO7816APDU+CommandType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NFCISO7816APDU+CommandType.swift"; sourceTree = "<group>"; };
+		D68EA7CD8483C8269B1AD1AD /* CardReaderAccess.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CardReaderAccess.framework; sourceTree = "<group>"; };
+		D8847FC43CF75D1B88127192 /* NFCCardReaderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCCardReaderController.swift; sourceTree = "<group>"; };
+		E27E90F46E9351BF661409A3 /* HealthCardAccessKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HealthCardAccessKit.framework; sourceTree = "<group>"; };
+		E32099AF0A1F3C3B1E0D2D40 /* NFCCardReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCCardReader.swift; sourceTree = "<group>"; };
+		ECCEDE3016F7CB79D9BE6CC9 /* NFCCardReader+NFCTagReaderSessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NFCCardReader+NFCTagReaderSessionDelegate.swift"; sourceTree = "<group>"; };
+		FFE418D62E1B2368228579E5 /* CardReaderProviderApi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CardReaderProviderApi.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8EFC67980022C64DB7526A5C7020EF83 /* Frameworks */ = {
+		8EFC67980022C64DB7526A5C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				430167BF9DB270AD7C7DAE72793744EA /* ASN1Kit.framework in Frameworks */,
-				2CDF9D282015D71019C46FF03CAD231F /* CardReaderProviderApi.framework in Frameworks */,
-				B9CEF68C50E3297BD0CB4B379AC5A97A /* CardReaderAccess.framework in Frameworks */,
-				D844433E9DF2650B04BC2185BD8EC984 /* GemCommonsKit.framework in Frameworks */,
-				E3654356D8DD9C17EC5E28AE7F2F50B2 /* ObjCCommonsKit.framework in Frameworks */,
-				A7E59095F6B1A8E1B2147AD833D99C3A /* DataKit.framework in Frameworks */,
-				57835BF7425E6733BFD061E486A31955 /* HealthCardAccessKit.framework in Frameworks */,
-				26EB0CC8D06ADDB58C6724AE1673DCF6 /* CoreNFC.framework in Frameworks */,
+				4E395EAE61D46E2BC77DC1C4 /* ASN1Kit.framework in Frameworks */,
+				827C1E36E2F323B44112D13C /* CardReaderProviderApi.framework in Frameworks */,
+				4896E02C8F643976664F8C0C /* CardReaderAccess.framework in Frameworks */,
+				E4148FD664557A4E6331B6DF /* GemCommonsKit.framework in Frameworks */,
+				C66DDAF049E0BA8784D0DCF9 /* ObjCCommonsKit.framework in Frameworks */,
+				27A1E896F856673FE024B11B /* DataKit.framework in Frameworks */,
+				8F599E3334C84199016CD391 /* HealthCardAccessKit.framework in Frameworks */,
+				C8C21A66FE92A138C8BFE0E1 /* CoreNFC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB4E54F0FCFA4AD48F2D3096CA9FA9EB /* Frameworks */ = {
+		BB4E54F0FCFA4AD48F2D3096 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A6E1F24C33D368E67B1CB892A42DD0B /* NFCCardReaderProvider.framework in Frameworks */,
-				45F57A4071EE3299200D4FA34C075362 /* Nimble.framework in Frameworks */,
+				E2C5722188E104838B1ACA3F /* NFCCardReaderProvider.framework in Frameworks */,
+				D1271335699DB7C0B739505A /* Nimble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E4D963A5ACECD6FD53B6E7A8245E764 /* Sources */ = {
+		0E4D963A5ACECD6FD53B6E7A /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				5DB1AA528C625BA4DCC8B254D3C0E210 /* NFCCardReaderProvider */,
+				5DB1AA528C625BA4DCC8B254 /* NFCCardReaderProvider */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		22FA657BAF1F2847FE83011AE3C8C715 /* NFCCardReaderProviderTests */ = {
+		22FA657BAF1F2847FE83011A /* NFCCardReaderProviderTests */ = {
 			isa = PBXGroup;
 			children = (
-				2D97F92FE2FDA43CE22352F0DD06DDFF /* Test.swift */,
+				2D97F92FE2FDA43CE22352F0 /* Test.swift */,
 			);
 			path = NFCCardReaderProviderTests;
 			sourceTree = "<group>";
 		};
-		341369AB2DF07354C6D8F6FE82FDEF23 /* Tests */ = {
+		341369AB2DF07354C6D8F6FE /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				22FA657BAF1F2847FE83011AE3C8C715 /* NFCCardReaderProviderTests */,
+				22FA657BAF1F2847FE83011A /* NFCCardReaderProviderTests */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		5DB1AA528C625BA4DCC8B254D3C0E210 /* NFCCardReaderProvider */ = {
+		5DB1AA528C625BA4DCC8B254 /* NFCCardReaderProvider */ = {
 			isa = PBXGroup;
 			children = (
-				ABC86A5939101EFD4DBC2129E278C2E3 /* Card */,
-				6DF2C5807581FE5303E5097403447099 /* Provider */,
-				A5F613AA34A8CB6B9C0E9443C504D150 /* Reader */,
+				ABC86A5939101EFD4DBC2129 /* Card */,
+				6DF2C5807581FE5303E50974 /* Provider */,
+				A5F613AA34A8CB6B9C0E9443 /* Reader */,
 			);
 			path = NFCCardReaderProvider;
 			sourceTree = "<group>";
 		};
-		5E605B0B8A8EB360B021C213E17E5677 = {
+		5E605B0B8A8EB360B021C213 = {
 			isa = PBXGroup;
 			children = (
-				0E4D963A5ACECD6FD53B6E7A8245E764 /* Sources */,
-				341369AB2DF07354C6D8F6FE82FDEF23 /* Tests */,
-				853F3202A39365C8FC62F3A47C14B9F2 /* Frameworks */,
-				924D346CC055D029E5CAAE943271630A /* Products */,
+				0E4D963A5ACECD6FD53B6E7A /* Sources */,
+				341369AB2DF07354C6D8F6FE /* Tests */,
+				853F3202A39365C8FC62F3A4 /* Frameworks */,
+				924D346CC055D029E5CAAE94 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6DF2C5807581FE5303E5097403447099 /* Provider */ = {
+		6DF2C5807581FE5303E50974 /* Provider */ = {
 			isa = PBXGroup;
 			children = (
-				47880656B8E693746B8BD50583BF492F /* NFCCardReaderProvider.swift */,
+				47880656B8E693746B8BD505 /* NFCCardReaderProvider.swift */,
 			);
 			path = Provider;
 			sourceTree = "<group>";
 		};
-		6E087A3F3C8CB9CB6264C7999A5E147D /* iOS */ = {
+		6E087A3F3C8CB9CB6264C799 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				6D1424E0EF651D8D80A591265C811D8A /* ASN1Kit.framework */,
-				D68EA7CD8483C8269B1AD1AD619C39C2 /* CardReaderAccess.framework */,
-				FFE418D62E1B2368228579E52412DA16 /* CardReaderProviderApi.framework */,
-				80C5BE3E38AEA412645BB4C31159E291 /* DataKit.framework */,
-				6BCBABA80BA123E287919B1191B7DD0A /* GemCommonsKit.framework */,
-				E27E90F46E9351BF661409A3A4B687C3 /* HealthCardAccessKit.framework */,
-				AAC7F8EF73054B2446F2143EEA8141A7 /* Nimble.framework */,
-				4F82FC31BC4ACA94FC5172C8EDF5B6B6 /* ObjCCommonsKit.framework */,
+				6D1424E0EF651D8D80A59126 /* ASN1Kit.framework */,
+				D68EA7CD8483C8269B1AD1AD /* CardReaderAccess.framework */,
+				FFE418D62E1B2368228579E5 /* CardReaderProviderApi.framework */,
+				80C5BE3E38AEA412645BB4C3 /* DataKit.framework */,
+				6BCBABA80BA123E287919B11 /* GemCommonsKit.framework */,
+				E27E90F46E9351BF661409A3 /* HealthCardAccessKit.framework */,
+				AAC7F8EF73054B2446F2143E /* Nimble.framework */,
+				4F82FC31BC4ACA94FC5172C8 /* ObjCCommonsKit.framework */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
 		};
-		853F3202A39365C8FC62F3A47C14B9F2 /* Frameworks */ = {
+		853F3202A39365C8FC62F3A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1A41BBD5DDED3C0EA0B0522017E9C887 /* CoreNFC.framework */,
-				E1096576DEE870344AD3B796541A84AF /* Carthage */,
+				1A41BBD5DDED3C0EA0B05220 /* CoreNFC.framework */,
+				E1096576DEE870344AD3B796 /* Carthage */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		924D346CC055D029E5CAAE943271630A /* Products */ = {
+		924D346CC055D029E5CAAE94 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5525E61EABDDE729C38E02526C6E23AD /* NFCCardReaderProvider.framework */,
-				BC5557B3DBFF835632393A4FB3245F90 /* NFCCardReaderProviderTests.xctest */,
+				5525E61EABDDE729C38E0252 /* NFCCardReaderProvider.framework */,
+				BC5557B3DBFF835632393A4F /* NFCCardReaderProviderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A5F613AA34A8CB6B9C0E9443C504D150 /* Reader */ = {
+		A5F613AA34A8CB6B9C0E9443 /* Reader */ = {
 			isa = PBXGroup;
 			children = (
-				E32099AF0A1F3C3B1E0D2D409FAE5A7F /* NFCCardReader.swift */,
-				ECCEDE3016F7CB79D9BE6CC98EAE4820 /* NFCCardReader+NFCTagReaderSessionDelegate.swift */,
-				D8847FC43CF75D1B88127192FE014C68 /* NFCCardReaderController.swift */,
+				E32099AF0A1F3C3B1E0D2D40 /* NFCCardReader.swift */,
+				ECCEDE3016F7CB79D9BE6CC9 /* NFCCardReader+NFCTagReaderSessionDelegate.swift */,
+				D8847FC43CF75D1B88127192 /* NFCCardReaderController.swift */,
 			);
 			path = Reader;
 			sourceTree = "<group>";
 		};
-		ABC86A5939101EFD4DBC2129E278C2E3 /* Card */ = {
+		ABC86A5939101EFD4DBC2129 /* Card */ = {
 			isa = PBXGroup;
 			children = (
-				10DE14CCEDCAB361272F1331C3B3E5A5 /* NFCCard.swift */,
-				111A63CEDC28914A59CA937F586E0559 /* NFCCardChannel.swift */,
-				C6F33C2B56F43A08E4D35F9504E6DFBB /* NFCISO7816APDU+CommandType.swift */,
+				10DE14CCEDCAB361272F1331 /* NFCCard.swift */,
+				111A63CEDC28914A59CA937F /* NFCCardChannel.swift */,
+				C6F33C2B56F43A08E4D35F95 /* NFCISO7816APDU+CommandType.swift */,
 			);
 			path = Card;
 			sourceTree = "<group>";
 		};
-		E1096576DEE870344AD3B796541A84AF /* Carthage */ = {
+		E1096576DEE870344AD3B796 /* Carthage */ = {
 			isa = PBXGroup;
 			children = (
-				6E087A3F3C8CB9CB6264C7999A5E147D /* iOS */,
+				6E087A3F3C8CB9CB6264C799 /* iOS */,
 			);
 			name = Carthage;
 			path = Carthage/Build;
@@ -235,12 +235,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		30E0ACD148BFED8DBD42623452557055 /* NFCCardReaderProvider */ = {
+		30E0ACD148BFED8DBD426234 /* NFCCardReaderProvider */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A17330058ACDB6C5024EB2486C1AEA45 /* Build configuration list for PBXNativeTarget "NFCCardReaderProvider" */;
+			buildConfigurationList = A17330058ACDB6C5024EB248 /* Build configuration list for PBXNativeTarget "NFCCardReaderProvider" */;
 			buildPhases = (
-				BC758CD55547635B3FAFEAA0046D03C8 /* Sources */,
-				8EFC67980022C64DB7526A5C7020EF83 /* Frameworks */,
+				BC758CD55547635B3FAFEAA0 /* Sources */,
+				8EFC67980022C64DB7526A5C /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,87 +248,88 @@
 			);
 			name = NFCCardReaderProvider;
 			productName = NFCCardReaderProvider;
-			productReference = 5525E61EABDDE729C38E02526C6E23AD /* NFCCardReaderProvider.framework */;
+			productReference = 5525E61EABDDE729C38E0252 /* NFCCardReaderProvider.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		66E9733300413D6927AAAEB431788CF4 /* NFCCardReaderProviderTests */ = {
+		66E9733300413D6927AAAEB4 /* NFCCardReaderProviderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 620198E389F799375B0F34642F46E4E1 /* Build configuration list for PBXNativeTarget "NFCCardReaderProviderTests" */;
+			buildConfigurationList = 620198E389F799375B0F3464 /* Build configuration list for PBXNativeTarget "NFCCardReaderProviderTests" */;
 			buildPhases = (
-				91A1842458C2F2918E3F38BF5671249B /* Sources */,
-				BB4E54F0FCFA4AD48F2D3096CA9FA9EB /* Frameworks */,
-				5AAC3DF9049A05F43A1398E93A3C0707 /* Embed Frameworks */,
+				91A1842458C2F2918E3F38BF /* Sources */,
+				BB4E54F0FCFA4AD48F2D3096 /* Frameworks */,
+				5AAC3DF9049A05F43A1398E9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BC7F4C3A9DB2A44E27C9755B4ADA61BD /* PBXTargetDependency */,
+				5ADCDC4B747EC6E2E28C5964 /* PBXTargetDependency */,
 			);
 			name = NFCCardReaderProviderTests;
 			productName = NFCCardReaderProviderTests;
-			productReference = BC5557B3DBFF835632393A4FB3245F90 /* NFCCardReaderProviderTests.xctest */;
+			productReference = BC5557B3DBFF835632393A4F /* NFCCardReaderProviderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		81EA5A64DFCEB9DF8BE4FE91556C7037 /* Project object */ = {
+		81EA5A64DFCEB9DF8BE4FE91 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1020;
 			};
-			buildConfigurationList = 7C31042DE346479A75BC1398549F3706 /* Build configuration list for PBXProject "NFCCardReaderProvider" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 7C31042DE346479A75BC1398 /* Build configuration list for PBXProject "NFCCardReaderProvider" */;
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				Base,
 				en,
 			);
-			mainGroup = 5E605B0B8A8EB360B021C213E17E5677;
+			mainGroup = 5E605B0B8A8EB360B021C213;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				30E0ACD148BFED8DBD42623452557055 /* NFCCardReaderProvider */,
-				66E9733300413D6927AAAEB431788CF4 /* NFCCardReaderProviderTests */,
+				30E0ACD148BFED8DBD426234 /* NFCCardReaderProvider */,
+				66E9733300413D6927AAAEB4 /* NFCCardReaderProviderTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		91A1842458C2F2918E3F38BF5671249B /* Sources */ = {
+		91A1842458C2F2918E3F38BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CB49DBB1007A81AF5FDA52A0E8F890C /* Test.swift in Sources */,
+				3817ADD6B19DD53D84248524 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC758CD55547635B3FAFEAA0046D03C8 /* Sources */ = {
+		BC758CD55547635B3FAFEAA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68E36EBB2F421D1BDCCBF9B441921B25 /* NFCCard.swift in Sources */,
-				EC4D85053E935D4ECD8B6A1C66385D3B /* NFCCardChannel.swift in Sources */,
-				96BF2490EF3F278E42A1C74AB758014E /* NFCCardReader+NFCTagReaderSessionDelegate.swift in Sources */,
-				5AF7B4B1C1196F3B5552FC1E04F54B40 /* NFCCardReader.swift in Sources */,
-				4EC098149ECDE3A893244301CE5A2C80 /* NFCCardReaderController.swift in Sources */,
-				324B4D14CACA076969E20655A74808C7 /* NFCCardReaderProvider.swift in Sources */,
-				3AF61D17C4C0A1181F94FF85E785249B /* NFCISO7816APDU+CommandType.swift in Sources */,
+				76C36408EAF39BBC5E3A5839 /* NFCCard.swift in Sources */,
+				16D4927A2E4B646AA9F99674 /* NFCCardChannel.swift in Sources */,
+				B93315059F0DB125762AF698 /* NFCCardReader+NFCTagReaderSessionDelegate.swift in Sources */,
+				1C35C6E653D9034F931A9495 /* NFCCardReader.swift in Sources */,
+				B614A56E9B0A2AA1413E6D35 /* NFCCardReaderController.swift in Sources */,
+				693FB974746D042145243863 /* NFCCardReaderProvider.swift in Sources */,
+				000B361CDED4D981212955F4 /* NFCISO7816APDU+CommandType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BC7F4C3A9DB2A44E27C9755B4ADA61BD /* PBXTargetDependency */ = {
+		5ADCDC4B747EC6E2E28C5964 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 30E0ACD148BFED8DBD42623452557055 /* NFCCardReaderProvider */;
-			targetProxy = 522791ED160FF3751BD151A1C8E9E392 /* PBXContainerItemProxy */;
+			target = 30E0ACD148BFED8DBD426234 /* NFCCardReaderProvider */;
+			targetProxy = 959D1A91CEE77F39B39A83C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		8948B894A0F9497D3B2206192FB6BFB9 /* Release */ = {
+		8948B894A0F9497D3B220619 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -343,7 +344,10 @@
 				);
 				INFOPLIST_FILE = Resources/NFCCardReaderProvider_Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.gematik.ti.cardreader.provider.NFCCardReaderProvider;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -352,7 +356,7 @@
 			};
 			name = Release;
 		};
-		9CE209F0266577926CE8BB47B9710A21 /* Debug */ = {
+		9CE209F0266577926CE8BB47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -367,7 +371,10 @@
 				);
 				INFOPLIST_FILE = Resources/NFCCardReaderProvider_Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.gematik.ti.cardreader.provider.NFCCardReaderProvider;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -376,7 +383,7 @@
 			};
 			name = Debug;
 		};
-		C7AEDD36315C717AB7CE4D8933F84318 /* Debug */ = {
+		C7AEDD36315C717AB7CE4D89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -384,14 +391,18 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.gematik.ti.cardreader.provider.NFCCardReaderProviderTests;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F3DB25F37CC7CEF55EB1504A3F75A1A7 /* Release */ = {
+		F3DB25F37CC7CEF55EB1504A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -440,13 +451,12 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		F86391CD6BC73FFAD7278C68A4D0A674 /* Release */ = {
+		F86391CD6BC73FFAD7278C68 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,14 +464,18 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.gematik.ti.cardreader.provider.NFCCardReaderProviderTests;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		F97CEFA814DFB27950B0EE32D3A4C9B7 /* Debug */ = {
+		F97CEFA814DFB27950B0EE32 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -527,34 +541,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		620198E389F799375B0F34642F46E4E1 /* Build configuration list for PBXNativeTarget "NFCCardReaderProviderTests" */ = {
+		620198E389F799375B0F3464 /* Build configuration list for PBXNativeTarget "NFCCardReaderProviderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C7AEDD36315C717AB7CE4D8933F84318 /* Debug */,
-				F86391CD6BC73FFAD7278C68A4D0A674 /* Release */,
+				C7AEDD36315C717AB7CE4D89 /* Debug */,
+				F86391CD6BC73FFAD7278C68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "";
 		};
-		7C31042DE346479A75BC1398549F3706 /* Build configuration list for PBXProject "NFCCardReaderProvider" */ = {
+		7C31042DE346479A75BC1398 /* Build configuration list for PBXProject "NFCCardReaderProvider" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F97CEFA814DFB27950B0EE32D3A4C9B7 /* Debug */,
-				F3DB25F37CC7CEF55EB1504A3F75A1A7 /* Release */,
+				F97CEFA814DFB27950B0EE32 /* Debug */,
+				F3DB25F37CC7CEF55EB1504A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		A17330058ACDB6C5024EB2486C1AEA45 /* Build configuration list for PBXNativeTarget "NFCCardReaderProvider" */ = {
+		A17330058ACDB6C5024EB248 /* Build configuration list for PBXNativeTarget "NFCCardReaderProvider" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9CE209F0266577926CE8BB47B9710A21 /* Debug */,
-				8948B894A0F9497D3B2206192FB6BFB9 /* Release */,
+				9CE209F0266577926CE8BB47 /* Debug */,
+				8948B894A0F9497D3B220619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "";
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 81EA5A64DFCEB9DF8BE4FE91556C7037 /* Project object */;
+	rootObject = 81EA5A64DFCEB9DF8BE4FE91 /* Project object */;
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1000"
+   LastUpgradeVersion = "1020"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "30E0ACD148BFED8DBD42623452557055"
+               BlueprintIdentifier = "30E0ACD148BFED8DBD426234"
                BuildableName = "NFCCardReaderProvider.framework"
                BlueprintName = "NFCCardReaderProvider"
                ReferencedContainer = "container:NFCCardReaderProvider.xcodeproj">
@@ -27,13 +27,14 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       codeCoverageEnabled = "YES"
+      onlyGenerateCoverageForSpecifiedTargets = "NO"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "66E9733300413D6927AAAEB431788CF4"
+               BlueprintIdentifier = "66E9733300413D6927AAAEB4"
                BuildableName = "NFCCardReaderProviderTests.xctest"
                BlueprintName = "NFCCardReaderProviderTests"
                ReferencedContainer = "container:NFCCardReaderProvider.xcodeproj">
@@ -43,7 +44,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "30E0ACD148BFED8DBD42623452557055"
+            BlueprintIdentifier = "30E0ACD148BFED8DBD426234"
             BuildableName = "NFCCardReaderProvider.framework"
             BlueprintName = "NFCCardReaderProvider"
             ReferencedContainer = "container:NFCCardReaderProvider.xcodeproj">
@@ -53,6 +54,8 @@
       </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
+      <CodeCoverageTargets>
+      </CodeCoverageTargets>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -67,7 +70,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "30E0ACD148BFED8DBD42623452557055"
+            BlueprintIdentifier = "30E0ACD148BFED8DBD426234"
             BuildableName = "NFCCardReaderProvider.framework"
             BlueprintName = "NFCCardReaderProvider"
             ReferencedContainer = "container:NFCCardReaderProvider.xcodeproj">
@@ -88,7 +91,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "30E0ACD148BFED8DBD42623452557055"
+            BlueprintIdentifier = "30E0ACD148BFED8DBD426234"
             BuildableName = "NFCCardReaderProvider.framework"
             BlueprintName = "NFCCardReaderProvider"
             ReferencedContainer = "container:NFCCardReaderProvider.xcodeproj">

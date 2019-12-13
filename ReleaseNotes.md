@@ -1,3 +1,6 @@
+# Release 1.0.4
+- update Carthage dependencies
+
 # Release 1.0.3
 Info.plist added to repo
 

@@ -1,0 +1,82 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/NFC-CardReaderProvider-REF-SWIFT-LIB-CI/Sources/NFCCardReaderProvider/Provider/NFCCardReaderProvider.swift",
+      "line": 8,
+      "symbol": "NFCCardReaderProvider",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/NFC-CardReaderProvider-REF-SWIFT-LIB-CI/Sources/NFCCardReaderProvider/Provider/NFCCardReaderProvider.swift",
+      "line": 9,
+      "symbol": "NFCCardReaderProvider.name",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/NFC-CardReaderProvider-REF-SWIFT-LIB-CI/Sources/NFCCardReaderProvider/Reader/NFCCardReader.swift",
+      "line": 9,
+      "symbol": "NFCCardReader",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/NFC-CardReaderProvider-REF-SWIFT-LIB-CI/Sources/NFCCardReaderProvider/Reader/NFCCardReader.swift",
+      "line": 12,
+      "symbol": "NFCCardReader",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/NFC-CardReaderProvider-REF-SWIFT-LIB-CI/Sources/NFCCardReaderProvider/Reader/NFCCardReader.swift",
+      "line": 27,
+      "symbol": "NFCCardReader.Error",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/NFC-CardReaderProvider-REF-SWIFT-LIB-CI/Sources/NFCCardReaderProvider/Reader/NFCCardReader.swift",
+      "line": 28,
+      "symbol": "NFCCardReader.Error.noCardPresent",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/NFC-CardReaderProvider-REF-SWIFT-LIB-CI/Sources/NFCCardReaderProvider/Reader/NFCCardReader.swift",
+      "line": 29,
+      "symbol": "NFCCardReader.Error.transferException(name:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/NFC-CardReaderProvider-REF-SWIFT-LIB-CI/Sources/NFCCardReaderProvider/Reader/NFCCardReader.swift",
+      "line": 30,
+      "symbol": "NFCCardReader.Error.sendTimeout",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/NFC-CardReaderProvider-REF-SWIFT-LIB-CI/Sources/NFCCardReaderProvider/Reader/NFCCardReader.swift",
+      "line": 32,
+      "symbol": "NFCCardReader.Error.connectionError",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/NFC-CardReaderProvider-REF-SWIFT-LIB-CI/Sources/NFCCardReaderProvider/Reader/NFCCardReader.swift",
+      "line": 36,
+      "symbol": "NFCCardReader.Error.illegalState",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tst_tt_build/Jenkins/workspace/NFC-CardReaderProvider-REF-SWIFT-LIB-CI/Sources/NFCCardReaderProvider/Reader/NFCCardReaderController.swift",
+      "line": 10,
+      "symbol": "NFCCardReaderController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/tst_tt_build/Jenkins/workspace/NFC-CardReaderProvider-REF-SWIFT-LIB-CI"
+}

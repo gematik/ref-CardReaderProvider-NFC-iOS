@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NFCCardReader Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1.0" />
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/NFCCardReader" class="dashAnchor"></a>
+    <a title="NFCCardReader Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p>
+          <a href="../index.html">NFCCardReaderProvider Docs</a>
+          <span class="no-mobile"> (65% documented)</span>
+        </p>
+    
+        <p class="header-right">
+          <a href="https://build.top.local/source/git/refImpl/mobszen/iOS/ref-CardReaderProvider-NFC-iOS.git">
+            <img src="../img/gh.png"/>
+            <span class="no-mobile">View on GitHub</span>
+          </a>
+        </p>
+    
+      </div>
+    </header>
+    <div id="breadcrumbs-container">
+      <div class="content-wrapper">
+        <p id="breadcrumbs">
+          <span class="no-mobile">
+            <a href="../index.html">NFCCardReaderProvider Reference</a>
+            <img id="carat" src="../img/carat.png" />
+          </span>
+          NFCCardReader Class Reference
+        </p>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="article-wrapper">
+        <article class="main-content">
+          <section>
+            <section class="section">
+              <h1>NFCCardReader</h1>
+                <div class="declaration">
+                  <div class="language">
+                    <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">NFCCardReader</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">CardReaderType</span></code></pre>
+
+                  </div>
+                </div>
+              <p>Undocumented</p>
+
+            </section>
+            <section class="section task-group-section">
+              <div class="task-group">
+                <ul>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:21NFCCardReaderProvider0aB0C19keyDiscoveryMessageSSvpZ"></a>
+                      <a name="//apple_ref/swift/Variable/keyDiscoveryMessage" class="dashAnchor"></a>
+                      <a class="token" href="#/s:21NFCCardReaderProvider0aB0C19keyDiscoveryMessageSSvpZ">keyDiscoveryMessage</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>The Use-case message key for the <code>connect()</code> method to display to the user</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">keyDiscoveryMessage</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:21NFCCardReaderProvider0aB0C17keyConnectMessageSSvpZ"></a>
+                      <a name="//apple_ref/swift/Variable/keyConnectMessage" class="dashAnchor"></a>
+                      <a class="token" href="#/s:21NFCCardReaderProvider0aB0C17keyConnectMessageSSvpZ">keyConnectMessage</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>The message to display to the user when the secure PACE channel is being setup</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">keyConnectMessage</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:21NFCCardReaderProvider0aB0C16keyNoCardMessageSSvpZ"></a>
+                      <a name="//apple_ref/swift/Variable/keyNoCardMessage" class="dashAnchor"></a>
+                      <a class="token" href="#/s:21NFCCardReaderProvider0aB0C16keyNoCardMessageSSvpZ">keyNoCardMessage</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>The no card found error message when no card is found by <code>connect()</code></p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">keyNoCardMessage</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:21NFCCardReaderProvider0aB0C22keyMultipleCardMessageSSvpZ"></a>
+                      <a name="//apple_ref/swift/Variable/keyMultipleCardMessage" class="dashAnchor"></a>
+                      <a class="token" href="#/s:21NFCCardReaderProvider0aB0C22keyMultipleCardMessageSSvpZ">keyMultipleCardMessage</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>The multiple cards detected error message when more than 1 card is found by <code>connect()</code></p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">keyMultipleCardMessage</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:21NFCCardReaderProvider0aB0C25keyUnsupportedCardMessageSSvpZ"></a>
+                      <a name="//apple_ref/swift/Variable/keyUnsupportedCardMessage" class="dashAnchor"></a>
+                      <a class="token" href="#/s:21NFCCardReaderProvider0aB0C25keyUnsupportedCardMessageSSvpZ">keyUnsupportedCardMessage</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>The unsupported card message</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">keyUnsupportedCardMessage</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:21NFCCardReaderProvider0aB0C18keyConnectionErrorSSvpZ"></a>
+                      <a name="//apple_ref/swift/Variable/keyConnectionError" class="dashAnchor"></a>
+                      <a class="token" href="#/s:21NFCCardReaderProvider0aB0C18keyConnectionErrorSSvpZ">keyConnectionError</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>The generic no connection message</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">keyConnectionError</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:21NFCCardReaderProvider0aB0C5ErrorO"></a>
+                      <a name="//apple_ref/swift/Enum/Error" class="dashAnchor"></a>
+                      <a class="token" href="#/s:21NFCCardReaderProvider0aB0C5ErrorO">Error</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Undocumented</p>
+
+                          <a href="../Classes/NFCCardReader/Error.html" class="slightly-smaller">See more</a>
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">Error</span> <span class="p">:</span> <span class="kt">Swift</span><span class="o">.</span><span class="kt">Error</span><span class="p">,</span> <span class="kt">Equatable</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:21CardReaderProviderApi0aB4TypeP4nameSSvp"></a>
+                      <a name="//apple_ref/swift/Property/name" class="dashAnchor"></a>
+                      <a class="token" href="#/s:21CardReaderProviderApi0aB4TypeP4nameSSvp">name</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:21CardReaderProviderApi0aB4TypeP11cardPresentSbvp"></a>
+                      <a name="//apple_ref/swift/Property/cardPresent" class="dashAnchor"></a>
+                      <a class="token" href="#/s:21CardReaderProviderApi0aB4TypeP11cardPresentSbvp">cardPresent</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">cardPresent</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:21CardReaderProviderApi0aB4TypeP02onA15PresenceChangedyyyAaB_pcF"></a>
+                      <a name="//apple_ref/swift/Method/onCardPresenceChanged(_:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:21CardReaderProviderApi0aB4TypeP02onA15PresenceChangedyyyAaB_pcF">onCardPresenceChanged(_:)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">onCardPresenceChanged</span><span class="p">(</span><span class="n">_</span> <span class="nv">block</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">CardReaderType</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:21CardReaderProviderApi0aB4TypeP7connectyAA0aE0_pSgSDySSypGKF"></a>
+                      <a name="//apple_ref/swift/Method/connect(_:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:21CardReaderProviderApi0aB4TypeP7connectyAA0aE0_pSgSDySSypGKF">connect(_:)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">connect</span><span class="p">(</span><span class="n">_</span> <span class="nv">params</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">CardType</span><span class="p">?</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:21NFCCardReaderProvider0aB0C14startDiscovery4withySDyS2SG_tF"></a>
+                      <a name="//apple_ref/swift/Method/startDiscovery(with:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:21NFCCardReaderProvider0aB0C14startDiscovery4withySDyS2SG_tF">startDiscovery(with:)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>(Re-)Start polling for NFC card</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">startDiscovery</span><span class="p">(</span><span class="n">with</span> <span class="nv">messages</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">String</span><span class="p">])</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:21NFCCardReaderProvider0aB0C17invalidateSession5errorySSSg_tF"></a>
+                      <a name="//apple_ref/swift/Method/invalidateSession(error:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:21NFCCardReaderProvider0aB0C17invalidateSession5errorySSSg_tF">invalidateSession(error:)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Close session when a session has been started</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">invalidateSession</span><span class="p">(</span><span class="nv">error</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>error</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>the error message or nil when the session has been successful</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="task-group">
+                <ul>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:7CoreNFC27NFCTagReaderSessionDelegateP03tagdE15DidBecomeActiveyySo0cdE0CF"></a>
+                      <a name="//apple_ref/swift/Method/tagReaderSessionDidBecomeActive(_:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:7CoreNFC27NFCTagReaderSessionDelegateP03tagdE15DidBecomeActiveyySo0cdE0CF">tagReaderSessionDidBecomeActive(_:)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@available(iOS 13.0, *)</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">tagReaderSessionDidBecomeActive</span><span class="p">(</span><span class="n">_</span> <span class="nv">session</span><span class="p">:</span> <span class="kt">NFCTagReaderSession</span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:7CoreNFC27NFCTagReaderSessionDelegateP03tagdE0_22didInvalidateWithErrorySo0cdE0C_s0K0_ptF"></a>
+                      <a name="//apple_ref/swift/Method/tagReaderSession(_:didInvalidateWithError:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:7CoreNFC27NFCTagReaderSessionDelegateP03tagdE0_22didInvalidateWithErrorySo0cdE0C_s0K0_ptF">tagReaderSession(_:didInvalidateWithError:)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@available(iOS 13.0, *)</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">tagReaderSession</span><span class="p">(</span><span class="n">_</span> <span class="nv">session</span><span class="p">:</span> <span class="kt">NFCTagReaderSession</span><span class="p">,</span> <span class="n">didInvalidateWithError</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Swift</span><span class="o">.</span><span class="kt"><a href="../Classes/NFCCardReader/Error.html">Error</a></span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:7CoreNFC27NFCTagReaderSessionDelegateP03tagdE0_9didDetectySo0cdE0C_SayAA0C0OGtF"></a>
+                      <a name="//apple_ref/swift/Method/tagReaderSession(_:didDetect:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:7CoreNFC27NFCTagReaderSessionDelegateP03tagdE0_9didDetectySo0cdE0C_SayAA0C0OGtF">tagReaderSession(_:didDetect:)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@available(iOS 13.0, *)</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">tagReaderSession</span><span class="p">(</span><span class="n">_</span> <span class="nv">session</span><span class="p">:</span> <span class="kt">NFCTagReaderSession</span><span class="p">,</span> <span class="n">didDetect</span> <span class="nv">tags</span><span class="p">:</span> <span class="p">[</span><span class="kt">NFCTag</span><span class="p">])</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </section>
+        </article>
+      </div>
+      <div class="nav-wrapper">
+        <nav class="nav-bottom">
+          <ul class="nav-groups">
+            <li class="nav-group-name">
+              <a href="../Classes.html">Classes</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="../Classes/NFCCardReader.html">NFCCardReader</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Classes/NFCCardReader/Error.html">– Error</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Classes/NFCCardReaderController.html">NFCCardReaderController</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Classes/NFCCardReaderProvider.html">NFCCardReaderProvider</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-wrapper">
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="http://www.gematik.de" target="_blank" rel="external">gematik GmbH</a>. All rights reserved. (Last updated: 2020-01-21)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.11.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </div>
+    </div>
+  </body>
+</div>
+</html>
